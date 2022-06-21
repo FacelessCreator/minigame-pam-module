@@ -1,7 +1,7 @@
 INCLUDEDIR=include
 BUILDDIR=build
 SRCDIR=src
-CFLAGS=-g -Wall -I$(INCLUDEDIR) -Wextra
+CFLAGS=-g -Wall -I$(INCLUDEDIR)
 
 .PHONY: all clean
 
