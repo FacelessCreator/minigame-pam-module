@@ -1,4 +1,5 @@
 # This is the example of PAM configuration
 # Put pam module into /lib/security or set custom path
 # Put your configuration into /etc/pam.d
-auth            required        pam-minigame.so
+# Set path to minigame
+auth            required        pam-minigame.so PATH_TO_GAME_EXECUTABLE
