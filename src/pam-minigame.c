@@ -34,3 +34,7 @@ int pam_sm_authenticate(pam_handle_t * pamh, int flags, int argc, const char **a
         }
     }
 }
+
+int pam_sm_setcred(pam_handle_t *pamh, int flags, int argc, const char **argv) {
+    return PAM_SUCCESS; // required by 'su' utility. Never mind
+}
